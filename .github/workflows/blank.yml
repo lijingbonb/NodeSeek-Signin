@@ -47,8 +47,8 @@ jobs:
           USER5: ${{ secrets.USER5 }}
           PASS5: ${{ secrets.PASS5 }}
           #取消随机
-          NS_RANDOM=false
-          
+          NS_RANDOM:false
+        
           # Cookie配置
           NS_COOKIE: ${{ vars.NS_COOKIE || secrets.NS_COOKIE }}
           
